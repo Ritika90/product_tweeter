@@ -3,5 +3,5 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     ShopifyApp.configuration.api_key,
     ShopifyApp.configuration.secret,
     scope: ShopifyApp.configuration.scope,
-    redirect_uri: "http://127.0.0.1:3000/login/finalize/auth/shopify/callback/"
+    redirect_uri: "https://r-product-twitter.herokuapp.com/login/finalize/auth/shopify/callback/"
 end
